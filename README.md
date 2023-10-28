@@ -1,8 +1,10 @@
-# React + Vite
+# WebCalc
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Web Calcutator application
 
-Currently, two official plugins are available:
+DB -  MSSQL
+Backend - ASP.NET CORE Web API
+Frontend - React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+In order to run project is necesary to create DB in MSSQL with name "WebCalDb" or modify connection string.
+
