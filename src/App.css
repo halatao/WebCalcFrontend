@@ -1,0 +1,89 @@
+.window {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+.grid-container-vertical {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+.grid-item {
+    background-color: darkorange;
+    border: 1px solid lightgray;
+    color: whitesmoke;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 160%;
+    font-weight: bold;
+    user-select: none;
+}
+.grid-item:hover {
+    background-color: orange;
+}
+.bg{
+    background-color: darkorange;
+}
+.bg-red{
+    background-color: #ea4141;
+}
+.bg-red:hover{
+    background-color: #fd3131;
+}
+.bg-blue{
+    background-color: #3b5998;
+}
+.bg-blue:hover{
+    background-color: #2d4373;
+}
+.padding{
+    padding: 10px;
+}
+.input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.asButton:hover {
+    cursor: pointer;
+    user-select: none;
+}
+.cell {
+    float: right;
+    padding: 20px;
+}
+.toggleButton{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    text-align: center;
+}
+.text-center{
+    text-align: center;
+}
+.BgWithOutline{
+    background-color: #D3D3D3;
+    border: 2px solid darkorange;
+    color: black;
+}
+.border-radius{
+    border-radius: 25px;
+}
+.font-size{
+    font-size: 160%;
+    font-weight: bold;
+}
+
